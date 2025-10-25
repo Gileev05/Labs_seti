@@ -54,6 +54,8 @@
 .prelook{
     display: inline-block;
     width: 22%;
+}
+.prelook p, .prelook h3{
     overflow:hidden;
     text-overflow:ellipsis;
 }
