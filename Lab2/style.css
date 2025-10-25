@@ -1,0 +1,157 @@
+.top_menu {
+    width: 90%;
+    border: gray solid 1px;
+    margin: 0.5% auto;
+    color: deepskyblue;
+    padding: 0.5%;
+    text-align: right;
+}
+.top_menu p{
+    display: inline-block;
+    margin: 0.5%;
+    border-radius: 15%;
+}
+.logo {
+    float: left;
+    margin: 0.5%;
+}
+.selected{
+    color: white;
+    background: deepskyblue;
+    margin: 0.5%;
+    padding: 1%;
+}
+
+
+.images{
+    margin: 0.5%;
+    width: 100%;
+    text-align: center;
+}
+.images img{
+    width: 19%;
+    height: 200px;
+    object-fit: fill;
+}
+.images .even{
+    margin: 1% 0;
+}
+
+
+
+
+.images-2{
+    margin: 0.5% auto;
+    padding: 0.5%;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+.images-2 img{
+    width: 12%;
+    border-radius: 50%;
+}
+.prelook{
+    display: inline-block;
+    width: 22%;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+
+
+
+.bottom-info{
+    display: inline-block;
+    width: 100%;
+}
+
+.left-info{
+    display: block;
+    width: 30%;
+    float: left;
+}
+.left-article{
+    float: left;
+    border: solid 1px black;
+    padding: 1%;
+    margin: 1% auto;
+    width: 80%;
+    overflow: hidden;
+}
+.left-article img{
+    float: left;
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+}
+.left-article h2{
+    text-align: left;
+    margin-left: 35%;
+}
+
+.left-article p {
+    margin-left: 35%;
+    text-align: justify;
+}
+
+.left-article input {
+    margin-left: 35%;
+    display: block;
+    margin-top: 10px;
+}
+
+.center-info{
+    display: inline-block;
+    width: 35%;
+    float: left;
+    margin: 1%;
+}
+h2{
+    text-align: center;
+}
+
+.right-info{
+    width: 30%;
+    float: right;
+}
+.right-article{
+    float: right;
+    text-align: right;
+    border: solid 1px black;
+    padding: 1%;
+    margin: 1% auto;
+    width: 80%;
+    overflow: hidden;
+}
+.right-article img{
+    float: right;
+    width: 30%;
+    padding: 1%;
+    margin: 1%;
+}
+.right-article h2 {
+    text-align: right;
+    margin-right: 35%;
+}
+
+.right-article p {
+    margin-right: 35%;
+    text-align: justify;
+}
+
+.right-article input {
+    margin-right: 35%;
+    display: block;
+    margin-top: 10px;
+    float: right;
+}
+
+[type="button"]{
+     background: deepskyblue;
+     color: white;
+ }
+
+[type="button"]:hover{
+    background: blue;
+}
